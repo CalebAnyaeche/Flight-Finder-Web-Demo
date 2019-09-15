@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="schedule.css">
+    <script>
+        function confimation(){
+            window.alert("Your confirmation is booked");
+        }
+    </script>
 </head>
 
 <body>
@@ -31,8 +36,8 @@
                         data-holder-rendered="true">
                     <div class="card-body">
                         <h4 class="card-title">Road trip</h4>
-                        <p class="card-text">You are <b>45 mins</b> from airport. Suggested pick-up time will be <b>4:30pm</b> on November 19th, 2019</p>
-                        <a href="#" class="btn btn-primary">Confirm Ride</a>
+                        <p class="card-text">You are <b>45 mins</b> from airport. Suggested pick-up time will be <b>4:30pm</b></p>
+                        <button onclick="confimation()" class="btn btn-primary">Confirm Ride</button>
                     </div>
                 </div>
             </div>
