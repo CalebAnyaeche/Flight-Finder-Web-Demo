@@ -12,12 +12,12 @@
     <link rel="stylesheet" type="text/css" href="schedule.css">
     <script>
         function confimation(){
-            window.alert("Your confirmation is booked");
+            window.alert("Your Ride is Booked");
         }
     </script>
 </head>
 
-<body>
+<body background = "car.png";>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -25,9 +25,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 
-    <div class="container">
+    <h3 style="text-align: center;"><b>Travel Details</b></h3>
+    <div class="mx-auto" style="width: auto; height: 350px; padding-left: 41%; padding-top: 5%">
         <div class="row">
             <div class="col-lg-4">
                 <div class="card">
@@ -35,8 +36,8 @@
                         src="uber.png"
                         data-holder-rendered="true">
                     <div class="card-body">
-                        <h4 class="card-title">Road trip</h4>
-                        <p class="card-text">You are <b>45 mins</b> from airport. Suggested pick-up time will be <b>4:30pm</b></p>
+                        <h4 class="card-title">Your Ride</h4>
+                        <p class="card-text">Hello Mr. Mazenge, your flight to Los Angeles is scheduled to depart at <b>6:30 pm.</b> As you are <b>15 minutes</b> from the airport, suggested pick-up time is <b>4:30pm</b></p>
                         <button onclick="confimation()" class="btn btn-primary">Confirm Ride</button>
                     </div>
                 </div>

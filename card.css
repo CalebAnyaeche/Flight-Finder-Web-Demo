@@ -65,3 +65,7 @@ form_main {
 border: 1px solid red;
 width:100%
 }
+
+.body {
+    background-image: url("flight.jpg");
+}

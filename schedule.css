@@ -2,8 +2,9 @@
     margin-bottom: 15px;
     margin-top: 15PX;
     }
+
 .card {
-position: relative;
+position: center;
 display: -ms-flexbox;
 display: flex;
 -ms-flex-direction: column;
@@ -16,3 +17,4 @@ border: 1px solid rgba(0,0,0,.125);
 border-radius: .25rem;
 margin-bottom: 15px;
 }
+
